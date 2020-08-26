@@ -1,3 +1,27 @@
+let beginCalcBtn = document.querySelector('#start');
+
+let budgetValue = document.querySelector('.budget-value');
+let dayBudgetValue = document.querySelector('.daybudget-value');
+let levelValue = document.querySelector('.level-value');
+let expensesValue = document.querySelector('.expenses-value');
+let optionalExpensesValue = document.querySelector('.optionalexpenses-value');
+let incomeValue = document.querySelector('.income-value');
+let monthSavingsValue = document.querySelector('.monthsavings-value');
+let yearSavingsValue = document.querySelector('.yearsavings-value');
+
+let expensesItem = document.querySelectorAll('.expenses-item');
+let expensesItemBtn = document.querySelector('.expenses-item-btn');
+let optionalExpensesItem = document.querySelectorAll('.optionalexpenses-item');
+let optionalExpensesBtn = documrnt.querySelector('.optionalexpenses-btn');
+let countBudgetBtn = document.querySelector('.count-budget-btn');
+let chooseIncome = document.querySelector('#optionalexpenses-item');
+let savings = document.querySelector('#savings');
+let choosePercent = document.querySelector('.choosePercent');
+let chooseSum = document.querySelector('.shoose-sum');
+let yearValue = document.querySelector('.year-value');
+let monthValue = document.querySelector('.month-value');
+let dayValue = document.querySelector('.day-value');
+
 let money, date;
 
 function start() {
